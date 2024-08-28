@@ -8,7 +8,7 @@ public class Main {
 
         //Utworzenie gabloty z folderami i multifolderami
 
-        List<Folder> folders = new ArrayList<Folder>();
+        List<Folder> folders = new ArrayList<>();
 
         folders.add(new Folder() {
             @Override
@@ -46,7 +46,7 @@ public class Main {
 
             @Override
             public List<Folder> getFolders() {
-                List<Folder> folders = new ArrayList<Folder>();
+                List<Folder> folders = new ArrayList<>();
                 folders.add(new Folder() {
                     @Override
                     public String getName() {
@@ -86,7 +86,7 @@ public class Main {
 
             @Override
             public List<Folder> getFolders() {
-                List<Folder> folders = new ArrayList<Folder>();
+                List<Folder> folders = new ArrayList<>();
                 folders.add(new Folder() {
                     @Override
                     public String getName() {
