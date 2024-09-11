@@ -4,26 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3281d84e-0931-49a4-bb67-8ece8d9cdfbf" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="3281d84e-0931-49a4-bb67-8ece8d9cdfbf" name="Changes" comment="commit2">
+      <change afterPath="$PROJECT_DIR$/src/FolderCabinetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/folderCabinet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/folderCabinet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FolderCabinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FolderCabinet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/damianp9108/folderCabinet.git",
-    "accountId": "b8ae100c-806f-4e41-9662-56dc90296511"
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "damianp9108"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/damianp9108/folderCabinet.git&quot;,
+    &quot;accountId&quot;: &quot;b8ae100c-806f-4e41-9662-56dc90296511&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lHtzomQNKyhwP489rRAtMaqMbr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,11 +56,25 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.FolderCabinetTest.executor": "Run",
+    "JUnit.FolderCabinetTest.shouldFind4FoldersInMEDIUMsize (1).executor": "Run",
+    "JUnit.FolderCabinetTest.shouldFind4FoldersInMEDIUMsize.executor": "Run",
+    "JUnit.FolderCabinetTest.shouldFindFolder.executor": "Run",
+    "JUnit.FolderCabinetTest.shouldReturn0.executor": "Run",
+    "JUnit.FolderCabinetTest.shouldReturn8.executor": "Run",
+    "JUnit.FolderCabinetTest.shouldReturnEmptyFolder (1).executor": "Run",
+    "JUnit.FolderCabinetTest.shouldReturnEmptyFolder (2).executor": "Run",
+    "JUnit.FolderCabinetTest.shouldReturnEmptyFolder.executor": "Run",
+    "JUnit.FolderCabinetTest.shouldReturnEmptyList.executor": "Run",
+    "JUnit.FolderCabinetTest.shouldReturnNull.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -51,8 +86,14 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\damia\Desktop\githubrepos\folderCabinet\src" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FolderCabinetTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="folderCabinet" />
@@ -60,9 +101,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FolderCabinetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="folderCabinet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FolderCabinetTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FolderCabinetTest.shouldFind4FoldersInMEDIUMsize (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="folderCabinet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FolderCabinetTest" />
+      <option name="METHOD_NAME" value="shouldFind4FoldersInMEDIUMsize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FolderCabinetTest.shouldReturn0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="folderCabinet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FolderCabinetTest" />
+      <option name="METHOD_NAME" value="shouldReturn0(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FolderCabinetTest.shouldReturn8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="folderCabinet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FolderCabinetTest" />
+      <option name="METHOD_NAME" value="shouldReturn8" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FolderCabinetTest" />
+        <item itemvalue="JUnit.FolderCabinetTest.shouldReturn8" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FolderCabinetTest.shouldReturn0" />
+        <item itemvalue="JUnit.FolderCabinetTest.shouldFind4FoldersInMEDIUMsize (1)" />
       </list>
     </recent_temporary>
   </component>
